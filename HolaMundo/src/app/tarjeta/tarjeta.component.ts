@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './tarjeta.component.html',
   styleUrls: ['./tarjeta.component.css']
 })
-export class TarjetaComponent implements OnInit {
+export class TarjetaComponent  {
 
-  constructor() { }
+  nombre='Fabiola'
+  fechaNacimiento="05/06/2000"
 
-  ngOnInit(): void {
-  }
+
 
 }
