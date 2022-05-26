@@ -1,3 +1,9 @@
 <h1>Hola precio es {{precio}} soy el banner publicitario de {{company}}</h1>
-<h2>Hola soy mas publicidad {{precio}}</h2>
+<button (click)="escojerCoca()">CocaCola</button>
+<button (click)="escojerPepsi()">Pepsi</button>
+<img *ngIf="company=='CocaCola'" src="https://www.revistaneo.com/sites/default/files/2021-05/coca-cola.jpg" alt="">
+<img *ngIf="company=='Pepsi'" src="https://insiderlatam.com/wp-content/uploads/2017/10/PepsiShazam2-665x459.jpg" alt="">
+
+<h2 *ngIf="precio<200" >Tipo de publicidad es Basica</h2>
+<h2 *ngIf="precio>=200" >Tipo de publicidad es Premium</h2>
 <button (click)="incrementarPrecio()">Incrementar</button>
