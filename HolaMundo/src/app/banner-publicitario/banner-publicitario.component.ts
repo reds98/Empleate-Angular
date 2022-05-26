@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerPublicitarioComponent  {
   company:string="BurgerKing"
-  precio:number=99999999
+  precio:number=150
 
-  
+  incrementarPrecio(){
+    this.precio=this.precio*10
+    
+  }
 
 }
