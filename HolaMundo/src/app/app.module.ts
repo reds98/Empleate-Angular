@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { InformacionComponent } from './informacion/informacion.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { TarjetaContactoComponent } from './tarjeta-contacto/tarjeta-contacto.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { ConsultasComponent } from './consultas/consultas.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { TarjetaContactoComponent } from './tarjeta-contacto/tarjeta-contacto.co
     HomeComponent,
     InformacionComponent,
     ServiciosComponent,
-    TarjetaContactoComponent
+    TarjetaContactoComponent,
+    FormularioComponent,
+    ConsultasComponent,
+    ErrorPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

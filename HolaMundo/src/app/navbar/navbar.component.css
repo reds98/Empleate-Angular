@@ -1,0 +1,10 @@
+div{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-size: 2em;
+    color: antiquewhite;
+    text-decoration: none;
+}
