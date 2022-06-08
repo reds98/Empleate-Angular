@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tarjeta',
@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tarjeta.component.css']
 })
 export class TarjetaComponent  {
-
-  nombre='Fabiola'
-  fechaNacimiento="05/06/2000"
-
-
+  @Input() nombre:string='Ricardo'
+  @Input() edad:number=20
+  fechaNacimiento:string="05/06/2000"
 
 }
