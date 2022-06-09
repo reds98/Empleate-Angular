@@ -13,6 +13,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { ConsultasComponent } from './consultas/consultas.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CrearElementoComponent } from './crear-elemento/crear-elemento.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     FormularioComponent,
     ConsultasComponent,
     ErrorPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    CrearElementoComponent
   ],
   imports: [
     BrowserModule,

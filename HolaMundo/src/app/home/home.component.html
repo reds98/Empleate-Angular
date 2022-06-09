@@ -1,3 +1,7 @@
-<app-tarjeta [nombre]="'Fabiola'" [edad]="16" [imagen]="'assets/lengua.jpg'"></app-tarjeta>
-<app-tarjeta [nombre]="'Julian'" [edad]="21" [imagen]="'assets/paleta.jpg'" ></app-tarjeta>
-<app-tarjeta ></app-tarjeta>
+<div>
+    <p *ngFor="let item of personasInscritas">{{item}}</p>
+    <app-crear-elemento (canalComunicacion)="addItem($event)"></app-crear-elemento>
+    <app-tarjeta [nombre]="'Fabiola'" [edad]="16" [imagen]="'assets/lengua.jpg'"></app-tarjeta>
+    <app-tarjeta [nombre]="'Julian'" [edad]="21" [imagen]="'assets/paleta.jpg'"></app-tarjeta>
+    <app-tarjeta></app-tarjeta>
+</div>
