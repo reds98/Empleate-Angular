@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TarjetaComponent  {
   @Input() nombre:string='Ricardo'
   @Input() edad:number=20
+  @Input()imagen:string='assets/comeme.png'
   fechaNacimiento:string="05/06/2000"
 
 }

@@ -1,4 +1,12 @@
-div{
-    border: 6px solid red;
+.contenedorPadre{
+    display: flex;
+    flex-direction: row;
     width: 50%;
+}
+.contenedorHijo{
+    border: 6px solid red;
+    /* width: 50%; */
+}
+img{
+    width: 80%;
 }
