@@ -1,0 +1,9 @@
+div{
+    background-color: #219EBC;
+    color:aliceblue;
+    width: 45vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
