@@ -1,9 +1,9 @@
 <div>
     <h1>Crear Invitado</h1>
     <h3>Nombre</h3>
-    <input type="text">
-    <h3>Apellido</h3>
-    <input type="text">
+    <input type="text" #nombre>
+    <h3>Edad</h3>
+    <input type="number" #edad>
     <br>
-    <button>Agregar Invitado</button>
+    <button (click)="enviarInvitado(nombre.value,edad.value)">Agregar Invitado</button>
 </div>

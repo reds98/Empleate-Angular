@@ -1,5 +1,6 @@
 <div>
-    <h1>Nombre:</h1>
-    <h2>Apellido:</h2>
-    <p>Esta persona me cae muy bien</p>
+    <h1>Nombre:{{nombre}}</h1>
+    <h2>Edad: {{edad}}</h2>
+    <p *ngIf="edad>=18">Esta Persona Si puede Tomar</p>
+    <p *ngIf="edad<18">Esta Persona NO puede Tomar</p>
 </div>

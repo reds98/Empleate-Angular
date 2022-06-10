@@ -1,4 +1,7 @@
 <div>
-    <app-crear-invitado></app-crear-invitado>
-    <app-lista-invitados></app-lista-invitados>
+    <app-crear-invitado (enviarEdad)="agregarEdadRecibida($event)" (enviarPersona)="agregarNombreRecibido($event)"></app-crear-invitado>
+    <section>
+        <p *ngFor="let item of nombresRecibidos">{{item}}</p>
+    </section>
+    <app-lista-invitados [edadesPersona]="edadRecibidas" [nombresPersonas]="nombresRecibidos"></app-lista-invitados>
 </div>
