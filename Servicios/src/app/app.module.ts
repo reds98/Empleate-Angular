@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SeccionPrincipalComponent } from './seccion-principal/seccion-principal.component';
 import { SeccionSecundariaComponent } from './seccion-secundaria/seccion-secundaria.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,8 @@ import { SeccionSecundariaComponent } from './seccion-secundaria/seccion-secunda
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
