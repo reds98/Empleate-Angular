@@ -1,0 +1,9 @@
+.contenedorPadre{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+app-footer{
+   position: sticky;
+   top: 100vh;
+}

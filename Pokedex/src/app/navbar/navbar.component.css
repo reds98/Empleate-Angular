@@ -1,0 +1,24 @@
+.contenedorPadre{
+    display: flex;
+    justify-content: space-between;
+    background-color:#8C755D ;
+    font-size: 2.0em;
+    
+}
+.contenedorHijo{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#8C755D ;
+   
+}
+a{
+    color: #EDEDE9;
+    text-decoration: none;  
+}
+button{
+    font-size:0.8em;
+}
+input{
+    font-size: 0.8em;
+}
