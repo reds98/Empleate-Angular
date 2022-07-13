@@ -1,0 +1,12 @@
+<h1 class="text-bg-success p-3"> gifs Trending</h1>
+<div class="d-flex flex-wrap">
+    
+    <div *ngFor="let gif of gifs" class="card" style="width: 18rem;">
+        <img [src]="gif.images.downsized.url" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Titulo : {{gif.title}}</h5>
+          <p class="card-text">Tipo :{{gif.type}}</p>
+         
+        </div>
+      </div>
+</div>

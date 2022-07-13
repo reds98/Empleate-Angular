@@ -1,0 +1,5 @@
+<h1 >{{nombre}}</h1>
+<h2 [ngClass]="nombre" >Info traida desde el servicio{{informacion.value}}</h2>
+<p *ngIf="precio>=19">Parrafo banner</p>
+<p *ngFor="let item of nombres">{{item}}</p>
+<button (click)="Saludar()">Saludar</button>

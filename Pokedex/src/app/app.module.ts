@@ -8,6 +8,7 @@ import { ListPokemonScreenComponent } from './list-pokemon-screen/list-pokemon-s
 import { SpecificPokemonComponent } from './specific-pokemon/specific-pokemon.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { BannerPrincipalComponent } from './banner-principal/banner-principal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     ListPokemonScreenComponent,
     SpecificPokemonComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    BannerPrincipalComponent
   ],
   imports: [
     BrowserModule,
