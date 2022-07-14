@@ -1,0 +1,4 @@
+<p>search works!</p>
+<p>Este es el valor del link  {{valordelLink}}</p>
+<app-tarjeta *ngFor="let juego of informacionApiBuscada.results"
+[imagenJuego]="juego.background_image" [nombreJuego]="juego.name"></app-tarjeta>
