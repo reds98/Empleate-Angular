@@ -2,4 +2,4 @@
 <h3>Este es el parrafo de home</h3>
 <!-- <p *ngFor="let juego of informacionRecibida.results">{{juego.name}}</p> -->
 <app-tarjeta *ngFor="let juego of informacionRecibida.results"
-[imagenJuego]="juego.background_image" [nombreJuego]="juego.name"></app-tarjeta>
+[imagenJuego]="juego.background_image" [nombreJuego]="juego.name" [idJuego]="juego.id"></app-tarjeta>
